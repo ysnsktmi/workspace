@@ -1,4 +1,6 @@
 var gulp=require('gulp');
+var changed=require('gulp-changed');
+var cached=require('gulp-cached');
 var sass=require('gulp-sass');
 var less=require('gulp-less');
 var autoprefixer=require('gulp-autoprefixer');
@@ -9,11 +11,10 @@ var plumber=require('gulp-plumber');
 var webserver=require('gulp-webserver');
 var notify=require('gulp-notify');
 var imagemin=require('gulp-imagemin');
-var changed=require('gulp-changed');
-// var entityconvert=require('gulp-entity-convert');
+var entityconvert=require('gulp-entity-convert');
 var prettify=require('gulp-prettify');
 var hvalid=require('gulp-html-validator');
-// var jshint=require('gulp-jshint');
+var jshint=require('gulp-jshint');
 
 // CONFIGURE>>
 var path={
