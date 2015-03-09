@@ -1,3 +1,6 @@
+var require_dir=require('require-dir');
+var nodepath=require('path');
+
 var gulp=require('gulp');
 var changed=require('gulp-changed');
 var cached=require('gulp-cached');
@@ -11,6 +14,7 @@ var plumber=require('gulp-plumber');
 var webserver=require('gulp-webserver');
 var notify=require('gulp-notify');
 var imagemin=require('gulp-imagemin');
+var htmlincluder=require('gulp-htmlincluder');
 var entityconvert=require('gulp-entity-convert');
 var prettify=require('gulp-prettify');
 var hvalid=require('gulp-html-validator');
