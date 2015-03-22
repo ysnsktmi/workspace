@@ -1,30 +1,31 @@
 {
   "name": "workspace",
-  "version": "1.0.0",
-  "description": "defautl workspace",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies":[
-     "file:packages/gulp-3.8.0.tgz",
-     "file:packages/gulp-autoprefixer-2.1.0.tgz",
-     "file:packages/gulp-changed-1.1.1.tgz",
-     "file:packages/gulp-csscomb-3.0.3.tgz",
-     "file:packages/gulp-csslint-0.1.5.tgz",
-     "file:packages/gulp-entity-convert-0.0.2.tgz",
-     "file:packages/gulp-html-validator-0.0.5.tgz",
-     "file:packages/gulp-imagemin-2.2.1.tgz",
-     "file:packages/gulp-jshint-1.9.2.tgz",
-     "file:packages/gulp-kss-0.0.2.tgz",
-     "file:packages/gulp-less-3.0.1.tgz",
-     "file:packages/gulp-notify-2.2.0.tgz",
-     "file:packages/gulp-plumber-0.6.6.tgz",
-     "file:packages/gulp-prettify-0.3.0.tgz",
-     "file:packages/gulp-sass-1.3.3.tgz",
-     "file:packages/gulp-webserver-0.9.0.tgz",
-     "file:packages/gulp.spritesmith-3.2.0.tgz"
-   ]
- }
+  },
+  "dependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "file:packages/gulp-3.8.0.tgz",
+    "gulp-autoprefixer": "file:packages/gulp-autoprefixer-2.1.0.tgz",
+    "gulp-babel": "file:packages/gulp-babel-4.0.0.tgz",
+    "gulp-changed": "file:packages/gulp-changed-1.1.1.tgz",
+    "gulp-csscomb": "file:packages/gulp-csscomb-3.0.3.tgz",
+    "gulp-csslint": "file:packages/gulp-csslint-0.1.5.tgz",
+    "gulp-entity-convert": "file:packages/gulp-entity-convert-0.0.2.tgz",
+    "gulp-htmlhint": "file:packages/gulp-htmlhint-0.0.9.tgz",
+    "gulp-imagemin": "file:packages/gulp-imagemin-2.2.1.tgz",
+    "gulp-jshint": "file:packages/gulp-jshint-1.9.2.tgz",
+    "gulp-kss": "file:packages/gulp-kss-0.0.2.tgz",
+    "gulp-less": "file:packages/gulp-less-3.0.1.tgz",
+    "gulp-notify": "file:packages/gulp-notify-2.2.0.tgz",
+    "gulp-plumber": "file:packages/gulp-plumber-0.6.6.tgz",
+    "gulp-prettify": "file:packages/gulp-prettify-0.3.0.tgz",
+    "gulp-rename": "file:packages/gulp-rename-1.2.0.tgz",
+    "gulp-sass": "file:packages/gulp-sass-1.3.3.tgz",
+    "gulp-webserver": "file:packages/gulp-webserver-0.9.0.tgz",
+    "gulp.spritesmith": "file:packages/gulp.spritesmith-3.2.0.tgz",
+    "jshint-stylish": "file:packages/jshint-stylish-1.0.1.tgz",
+    "react-tools": "^0.13.1",
+    "require-dir": "file:packages/require-dir-0.2.0.tgz"
+  }
+}
