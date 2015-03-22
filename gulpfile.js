@@ -1,4 +1,6 @@
 var require_dir=require('require-dir');
+var taskdir=requiredir('./tasks');
+
 var nodepath=require('path');
 var sequence=require('run-sequence');
 var rimraf=require('rimraf');
@@ -57,6 +59,8 @@ prettify:{
   end_with_newline:false
 }
 };
+var ignorance=['!./node_modules/**','./src/libs/**'].join();
+
 // <<CONFIGURE
 
 gulp.task('default',function(){
