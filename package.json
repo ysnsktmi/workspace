@@ -28,5 +28,8 @@
     "jshint-stylish": "file:packages/jshint-stylish-1.0.1.tgz",
     "react-tools": "^0.13.1",
     "require-dir": "file:packages/require-dir-0.2.0.tgz"
+  },
+  "devDependencies": {
+    "gulp-util": "^3.0.4"
   }
 }
